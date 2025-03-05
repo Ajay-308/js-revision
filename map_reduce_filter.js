@@ -22,3 +22,13 @@ const sq1 = arr.map(function square(num) {
 });
 
 console.log(sq1);
+
+// filter() is a method that creates a new array with all elements that pass the test implemented by the provided function.
+
+const even = arr.filter((num) => num % 2 == 0);
+console.log("filter", even);
+
+// reduce() is a method that executes a reducer function on each element of the array , resulting in a single output value.
+
+const sum = arr.reduce((acc, num) => acc + num, 0);
+console.log("reducer", sum);
