@@ -2,8 +2,10 @@
 // function statement is hoisted means it can be called before it is declared
 // function expression is not hoisted means it is treated as a variable here
 
+const console = require("console");
+
 greet(); // return hi
-greetMe(); // return error , because firstly js treat it as a variable and on that variable we are calling a function
+//greetMe(); // return error , because firstly js treat it as a variable and on that variable we are calling a function
 // so it tell us that greetMe is not a function
 //  TypeError: greetMe is not a function
 
@@ -59,3 +61,15 @@ log(a);
 var log = (a) => {
   console.log(a);
 };
+
+// high order function
+
+function x() {
+  console.log("my name is ajay");
+}
+
+function y(x) {
+  return x();
+}
+
+y(x);
