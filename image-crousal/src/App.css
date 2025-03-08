@@ -12,6 +12,35 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* Container styles */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Progress bar outer container */
+.progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 25px;
+  margin: 10px 0;
+}
+
+/* Progress bar inner (animated) */
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+
+  /* Animation effect */
+  transition: width 1s ease-in-out;
+}
 
 .App-header {
   background-color: #282c34;
