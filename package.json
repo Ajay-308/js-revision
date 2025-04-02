@@ -1,0 +1,24 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "main": "async2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajay-308/js-revision.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ajay-308/js-revision/issues"
+  },
+  "homepage": "https://github.com/Ajay-308/js-revision#readme",
+  "description": "",
+  "dependencies": {
+    "jspdf": "^3.0.0"
+  }
+}

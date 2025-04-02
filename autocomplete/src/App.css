@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  margin-top: 10rem;
+}
+.input {
+  width: 500px;
+  padding: 5px;
+}
+
+.result-container {
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  margin-heigh: 500px;
+  overflow-y: scroll;
+}
+.result {
+  display: block;
+  padding: 5px;
+}
+
+.result:hover {
+  background-color: beige;
+}
