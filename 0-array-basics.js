@@ -1,4 +1,5 @@
 // Arrays in Javascript
+// read curring,deboucing  in js 
 
 // Decalaration
 let person = {
